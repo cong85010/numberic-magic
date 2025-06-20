@@ -17,7 +17,7 @@ export async function POST(request: NextRequest) {
         
         Thông tin của người tìm hiểu:
         - Tên: ${name}
-        - Ngày sinh: ${birthDate}
+        - Ngày sinh: ${birthDate} (Ghi chú: Giữ theo chuẩn dd/mm/yyyy, giữ đúng ngày tháng năm sinh của người dùng)
         
         Hãy tính toán và phân tích thần số học chi tiết, huyền bí và đầy cảm hứng bằng tiếng Việt. 
         
